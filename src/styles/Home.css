@@ -24,7 +24,7 @@ main {
     border: none;
     border-radius: 20px;
     color: white;
-    background-color: #a52a2a;
+    background-color: #ff3b3f;
     transition: 0.1s background-color;
 }
 #quiz-start:hover {

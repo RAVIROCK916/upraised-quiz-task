@@ -1,0 +1,31 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.choice {
+    cursor: pointer;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #f3f4fa;
+}
+
+.choice-title {
+    margin-left: 5px;
+}
+
+.next-btn {
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff3b3f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}

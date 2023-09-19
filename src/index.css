@@ -7,5 +7,9 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#fff, #aaa) no-repeat;
+    /* background: linear-gradient(#fff, #aaa) no-repeat; */
+}
+
+#root {
+    height: 100vh;
 }
