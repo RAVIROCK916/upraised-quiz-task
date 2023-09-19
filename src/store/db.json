@@ -9,12 +9,13 @@
                 "Sharat chandra chattopadhyay",
                 "None of the above"
             ],
-            "isMultiple": false
+            "isMultiple": true
         },
         {
             "id": 1,
             "title": "Which is the biggest ocean in the world?",
-            "choices": ["Asia", "Africa", "Europe", "Antarctica"]
+            "choices": ["Asia", "Africa", "Europe", "Antarctica"],
+            "isMultiple": false
         }
     ]
 }

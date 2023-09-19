@@ -6,6 +6,13 @@ export const getQuestions = async () => {
     return data;
 };
 
-export const postAnswers = async (questionID, answers) => {
+export const postAnswers = async (questionID, answers, timeTaken) => {
+    console.log(
+        "posting data : ",
+        questionID,
+        answers,
+        timeTaken / 1000,
+        " sec"
+    );
     return true;
 };
