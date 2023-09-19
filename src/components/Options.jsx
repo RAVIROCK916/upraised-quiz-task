@@ -16,14 +16,15 @@ const Options = ({ choices, isMultiple, setAnswers, answers }) => {
     return (
         <form>
             {choices.map((item, idx) => {
+                let isChecked = answers.includes(idx.toString());
+                console.log(isChecked);
                 return (
                     <label htmlFor={`choice-${idx}`} key={`choices-${idx}`}>
                         <div
                             className="choice"
                             style={{
-                                // TODO: Add styling
-                                outline: answers.includes(idx.toString())
-                                    ? "5px solid green"
+                                outline: isChecked
+                                    ? "1px solid green"
                                     : "1px solid grey",
                             }}
                         >
@@ -33,8 +34,14 @@ const Options = ({ choices, isMultiple, setAnswers, answers }) => {
                                 name={idx}
                                 id={`choice-${idx}`}
                                 onChange={handleOptionsChange}
-                                checked={answers.includes(idx.toString())}
+                                checked={isChecked}
                             />
+                            <i
+                                className="fa fa-check"
+                                style={{
+                                    display: isChecked ? "initial" : "none",
+                                }}
+                            ></i>
                             <span className="choice-title">{item}</span>
                         </div>
                     </label>
