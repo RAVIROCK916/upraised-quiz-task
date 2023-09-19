@@ -12,7 +12,7 @@ const Home = () => {
             <Link
                 to="/question"
                 className="quiz-start-btn"
-                onClick={getQuestions}
+                // onClick={getQuestions}
             >
                 <button id="quiz-start">Start</button>
             </Link>

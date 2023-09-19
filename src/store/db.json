@@ -1,15 +1,19 @@
 {
     "questions": [
         {
-            "id": 1,
-            "question": "Which is the biggest continent in the world?",
-            "choices": ["Asia", "Africa", "Europe", "Antarctica"]
+            "id": 0,
+            "title": "Who wrote Vande Mataram?",
+            "choices": [
+                "Rabindranath Tagore",
+                "Bankimchandra Chatterjee",
+                "Sharat chandra chattopadhyay",
+                "None of the above"
+            ]
         },
         {
-            "id": 2,
-            "question": "Which is the biggest continent in the world?",
+            "id": 1,
+            "title": "Which is the biggest ocean in the world?",
             "choices": ["Asia", "Africa", "Europe", "Antarctica"]
         }
-    ],
-    "companies": []
+    ]
 }
