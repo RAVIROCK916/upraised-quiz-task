@@ -5,3 +5,7 @@ export const getQuestions = async () => {
     const data = res.data;
     return data;
 };
+
+export const postAnswers = async (questionID, answers) => {
+    return true;
+};

@@ -8,7 +8,8 @@
                 "Bankimchandra Chatterjee",
                 "Sharat chandra chattopadhyay",
                 "None of the above"
-            ]
+            ],
+            "isMultiple": false
         },
         {
             "id": 1,
