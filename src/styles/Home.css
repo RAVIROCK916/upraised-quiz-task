@@ -6,23 +6,33 @@ main {
     padding: 30px 0;
 }
 
+.logo .logo-title {
+    font-family: Poppins;
+    font-size: 1.5rem;
+}
+
 .quiz-title {
     width: fit-content;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
-    padding: 100px;
+    font-family: Poppins;
+    padding: 100px 90px;
     border-radius: 50%;
     margin: 0 auto;
-    background-color: #eee;
-    box-shadow: 5px 10px;
+    color: #ff3b3c;
+    /* background-color: #eee; */
+    box-shadow: 3px 3px 5px #999;
 }
 
 #quiz-start {
     width: max-content;
     cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 700;
+    min-width: 200px;
     padding: 10px 50px;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     background-color: #ff3b3f;
     transition: 0.1s background-color;

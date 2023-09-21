@@ -9,11 +9,7 @@ const Home = () => {
         <main>
             <Navbar />
             <span className="quiz-title">Quiz</span>
-            <Link
-                to="/question"
-                className="quiz-start-btn"
-                // onClick={getQuestions}
-            >
+            <Link to="/question" className="quiz-start-btn">
                 <button id="quiz-start">Start</button>
             </Link>
         </main>
