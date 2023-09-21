@@ -53,6 +53,13 @@
     background-color: #44b77b;
 }
 
+.partial {
+    background-color: #fffaa0;
+}
+.partial::before {
+    background-color: #ffea00;
+}
+
 .incorrect {
     background-color: #ffe8e9;
 }
