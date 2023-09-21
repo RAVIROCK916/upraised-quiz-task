@@ -1,21 +1,72 @@
 {
-    "questions": [
-        {
-            "id": 0,
-            "title": "Who wrote Vande Mataram?",
-            "choices": [
-                "Rabindranath Tagore",
-                "Bankimchandra Chatterjee",
-                "Sharat chandra chattopadhyay",
-                "None of the above"
-            ],
-            "isMultiple": true
-        },
-        {
-            "id": 1,
-            "title": "Which is the biggest ocean in the world?",
-            "choices": ["Asia", "Africa", "Europe", "Antarctica"],
-            "isMultiple": false
-        }
-    ]
+  "questions": [
+    {
+      "id": 1,
+      "title": "Who wrote Vande Mataram?",
+      "image": "https://assets.telegraphindia.com/telegraph/c8a089e0-a6ff-40c8-95f1-5c0c9b068c2a.jpg",
+      "choices": [
+        "Rabindranath Tagore",
+        "Bankimchandra Chatterjee",
+        "Sharat chandra chattopadhyay",
+        "None of the above"
+      ],
+      "isMultiple": false
+    },
+    {
+      "id": 2,
+      "title": "When was Indian National song sung for the first time?",
+      "choices": [
+        "1896 session of the Indian National Congress",
+        "1857 revolt",
+        "1919 - Jallianwala Bagh Massacre",
+        "None of the above"
+      ],
+      "isMultiple": false
+    },
+    {
+      "id": 3,
+      "title": "The Mughal Empire reached its peak under the rule of which emperor?",
+      "choices": [
+        "Babur",
+        "Akbar",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "isMultiple": false
+    },
+    {
+      "id": 4,
+      "title": "Which of the following are the three important pillars of the teachings of Buddha?",
+      "choices": [
+        "Buddha",
+        "Dhamma ",
+        "Sangha",
+        "Nirvana"
+      ],
+      "isMultiple": true
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "options": [
+        "0"
+      ],
+      "timeTaken": 3637
+    },
+    {
+      "id": 2,
+      "options": [
+        "3"
+      ],
+      "timeTaken": 1032
+    },
+    {
+      "id": 3,
+      "options": [
+        "3"
+      ],
+      "timeTaken": 577
+    }
+  ]
 }

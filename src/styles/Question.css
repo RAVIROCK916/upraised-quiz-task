@@ -1,34 +1,84 @@
 .quiz {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 25px 0;
 }
 
 .question {
+    color: #343434;
     font-size: 1.5rem;
     font-weight: bold;
+    width: 800px;
+    /* max-width: 50vw; */
+}
+
+.q-img {
+    width: 50%;
 }
 
 .choice {
     cursor: pointer;
     display: flex;
-    padding: 10px 20px;
-    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
     margin: 15px 0;
     background-color: #f3f4fa;
+    /* width: 50vw;
+    min-width: 100px; */
 }
 .choice input {
     appearance: none;
 }
 
+.checkmark {
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .choice-title {
+    color: #4c4c4c;
     margin-left: 5px;
 }
 
 .next-btn {
+    font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
     color: #fff;
     background-color: #ff3b3f;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 40px;
+    position: relative;
+    /* position: fixed;
+    bottom: 20px; */
+}
+
+@media (max-width: 480px) {
+    .choice {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    .checkmark {
+        width: 15px;
+        height: 15px;
+    }
+    .checkmark i {
+        font-size: 8px;
+    }
+    .choice-title {
+        font-size: 14px;
+    }
+    .next-btn {
+        padding: 10px;
+    }
 }
