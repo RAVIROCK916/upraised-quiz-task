@@ -14,13 +14,10 @@ export const postAnswers = async (questionID, answers, timeTaken) => {
         timeTaken / 1000,
         " sec"
     );
-    axios.post(
-        "http://localhost:3000/answers",
-        JSON.stringify({
-            id: questionID,
-            options: answers,
-            timeTaken: timeTaken,
-        })
-    );
+    axios.post("http://localhost:3000/answers", {
+        qID: questionID,
+        options: answers,
+        timeTaken: timeTaken,
+    });
     return true;
 };

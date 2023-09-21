@@ -1,8 +1,40 @@
-# React + Vite
+# Upraised Quiz Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+A Quiz based on React JS. Each question can be configured to be single choice or multiple choice. Scoring is calculated based on correct answers including partially corrected answers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend is a `json-server` which was prebuilt.
+
+## How to run
+
+Install node
+
+```bash
+git clone https://github.com/RAVIROCK916/upraised-quiz-task.git
+cd upraised-quiz-task/
+npm install
+```
+
+Open two terminals to run frontend and backend
+
+```bash
+npm run json-server # Terminal 1
+npm run dev         # Terminal 2
+```
+
+## Code Structure
+
+assets/ - contains all the assets required for the project  
+components/ - components which can be re-used  
+pages/ - pages specific to the project  
+store/ - contains all the upstream calls  
+styles/ - containes all the styles  
+db.json - file which will be handled by json-server using CRUD methods from the API calls
+
+### Technologies
+
+-   React JS
+-   React Router
+-   Axios
+-   JSON server
